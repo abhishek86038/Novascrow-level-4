@@ -633,11 +633,11 @@ export default function App() {
               {/* Progress values */}
               <div className="flex justify-between items-baseline mt-4 border-t border-slate-800/50 pt-4">
                 <div>
-                  <span className="text-4xl font-extrabold tracking-tight font-display text-[#FFC15E]">
+                  <span className="text-4xl font-extrabold tracking-tight font-display text-[#2DD4BF]">
                     {raised.toLocaleString(undefined, { minimumFractionDigits: 0, maximumFractionDigits: 2 })}
                   </span>
                   <span className="text-[#7E86A3] font-medium ml-2 font-display text-sm">
-                    Lumens of light contributed
+                    XLM Contributed to Escrow
                   </span>
                 </div>
                 <div className="text-right flex flex-col items-end">
@@ -655,7 +655,7 @@ export default function App() {
             <div className="border-t border-slate-800/60 pt-6 mt-6">
               <div className="mb-4">
                 <h3 className="text-xs font-black uppercase tracking-wider text-[#7E86A3] flex items-center gap-2 font-display">
-                  <span className="w-2 h-2 rounded-full bg-[#FFC15E] animate-pulse" />
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#2DD4BF] animate-pulse" />
                   Recent Contributions
                 </h3>
               </div>
@@ -722,7 +722,7 @@ export default function App() {
                       return (
                         <div
                           key={ev.id}
-                          className="bg-[#0A0D1C]/60 border border-slate-850/80 rounded-xl p-3 flex items-center justify-between gap-4 hover:border-slate-800 transition"
+                          className="bg-[#030D0E]/60 border border-slate-850/80 rounded-xl p-3 flex items-center justify-between gap-4 hover:border-slate-800 transition"
                         >
                           <div className="flex items-center gap-2.5 min-w-0">
                             <div className="relative flex items-center justify-center shrink-0">
@@ -740,7 +740,7 @@ export default function App() {
 
                           <div className="flex items-center gap-3 shrink-0">
                             {badgeTag}
-                            <span className="font-mono text-xs text-[#FFC15E] font-bold">
+                            <span className="font-mono text-xs text-[#2DD4BF] font-bold">
                               +{ev.amount ?? 0} XLM
                             </span>
                             <span className="text-[10px] text-[#7E86A3] font-medium w-16 text-right font-sans">
@@ -763,11 +763,11 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             
             {/* Donation Form Card */}
-            <div className="bg-[#12162B]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 flex flex-col justify-between shadow-2xl relative">
+            <div className="bg-[#081B1D]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 flex flex-col justify-between shadow-2xl relative">
               <div>
-                <h3 className="text-lg font-bold tracking-tight mb-4 flex items-center gap-2 font-display">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#FFC15E]" />
-                  Contribute Lumens
+                <h3 className="text-lg font-bold tracking-tight mb-4 flex items-center gap-2 font-display text-white">
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#2DD4BF]" />
+                  Contribute XLM
                 </h3>
 
                 <form onSubmit={handleDonate} className="flex flex-col gap-4">
@@ -780,8 +780,8 @@ export default function App() {
                         onClick={() => setDonateAmount(amount.toString())}
                         className={`py-2.5 px-2 text-xs font-bold rounded-xl transition border cursor-pointer font-mono min-h-[44px] ${
                           donateAmount === amount.toString()
-                            ? "bg-[#FFC15E]/15 text-[#FFC15E] border-[#FFC15E] shadow-[0_0_10px_rgba(255,193,94,0.15)]"
-                            : "bg-[#0A0D1C]/65 text-[#7E86A3] border-slate-800 hover:bg-[#12162B] hover:text-white"
+                            ? "bg-[#2DD4BF]/15 text-[#2DD4BF] border-[#2DD4BF] shadow-[0_0_10px_rgba(45,212,191,0.15)]"
+                            : "bg-[#030D0E]/65 text-[#7E86A3] border-slate-800 hover:bg-[#081B1D] hover:text-white"
                         }`}
                       >
                         {amount} XLM
@@ -799,7 +799,7 @@ export default function App() {
                       min="0.0000001"
                       step="any"
                       required
-                      className="w-full bg-[#0A0D1C]/90 border border-slate-800 focus:border-[#37C6FF] rounded-2xl py-3.5 pl-4 pr-16 text-[#F4F6FF] font-bold focus:outline-hidden transition shadow-inner font-mono"
+                      className="w-full bg-[#030D0E]/90 border border-slate-800 focus:border-[#2DD4BF] rounded-2xl py-3.5 pl-4 pr-16 text-[#F4F6FF] font-bold focus:outline-hidden transition shadow-inner font-mono"
                     />
                     <span className="absolute right-4 top-1/2 -translate-y-1/2 text-sm text-[#7E86A3] font-bold font-mono">
                       XLM
@@ -808,17 +808,17 @@ export default function App() {
 
                   {/* Dynamic Reward Estimator */}
                   {upcomingBadge && (
-                    <div className="bg-[#0A0D1C]/80 border border-slate-800/80 rounded-2xl p-4 text-xs font-sans">
+                    <div className="bg-[#030D0E]/80 border border-slate-800/80 rounded-2xl p-4 text-xs font-sans">
                       <div className="flex items-center justify-between font-semibold text-[#F4F6FF]">
                         <span>Target Badge Reward:</span>
-                        <span className="text-[#FFC15E]">{upcomingBadge.tier} Tier</span>
+                        <span className="text-[#2DD4BF]">{upcomingBadge.tier} Tier</span>
                       </div>
                       {upcomingBadge.diff ? (
                         <div className="text-[#7E86A3] mt-1">
                           Add <span className="font-bold text-[#F4F6FF] font-mono">{upcomingBadge.diff.toFixed(1)} XLM</span> more to hit this milestone.
                         </div>
                       ) : (
-                        <div className="text-[#4ADE80] mt-1 flex items-center gap-1 font-medium">
+                        <div className="text-[#34D399] mt-1 flex items-center gap-1 font-medium">
                           ✔ Donation qualifies for the {upcomingBadge.tier} tier!
                         </div>
                       )}
@@ -829,7 +829,7 @@ export default function App() {
                   <button
                     type="submit"
                     disabled={loadingAction !== "" && loadingAction !== "success" && loadingAction !== "error"}
-                    className="w-full cursor-pointer bg-gradient-to-r from-[#5B4FE8] to-[#37C6FF] hover:scale-[1.02] active:scale-[0.98] text-[#F4F6FF] font-bold py-3.5 px-6 rounded-2xl transition-all duration-200 shadow-lg shadow-[#5B4FE8]/25 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 font-display"
+                    className="w-full cursor-pointer bg-gradient-to-r from-[#0D9488] to-[#2DD4BF] hover:scale-[1.02] active:scale-[0.98] text-[#F4F6FF] font-bold py-3.5 px-6 rounded-2xl transition-all duration-200 shadow-lg shadow-[#0D9488]/25 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 font-display"
                   >
                     {!walletConnected
                       ? "Connect Wallet to Contribute"
@@ -847,14 +847,14 @@ export default function App() {
               {/* Status Message Blocks */}
               <div className="mt-4 font-sans">
                 {loadingAction === "success" && (
-                  <div className="bg-[#4ADE80]/10 border border-[#4ADE80]/30 rounded-2xl p-4 text-xs text-[#4ADE80]">
+                  <div className="bg-[#34D399]/10 border border-[#34D399]/30 rounded-2xl p-4 text-xs text-[#34D399]">
                     <p className="font-bold mb-1">✔ Contribution Complete!</p>
-                    <p className="mb-2 text-[#7E86A3]">Your light source has been mapped onto the ledger.</p>
+                    <p className="mb-2 text-[#7E86A3]">Your contribution has been mapped onto the ledger.</p>
                     <a
                       href={`https://stellar.expert/explorer/testnet/tx/${successTxHash}`}
                       target="_blank"
                       rel="noreferrer"
-                      className="font-mono text-[#37C6FF] hover:text-[#37C6FF]/80 underline font-semibold break-all"
+                      className="font-mono text-[#2DD4BF] hover:text-[#2DD4BF]/80 underline font-semibold break-all"
                     >
                       TX: {successTxHash.slice(0, 18)}...
                     </a>
@@ -871,21 +871,21 @@ export default function App() {
             </div>
 
             {/* Badge Info & Tiers */}
-            <div className="bg-[#12162B]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 flex flex-col justify-between shadow-2xl relative">
+            <div className="bg-[#081B1D]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 flex flex-col justify-between shadow-2xl relative">
               <div>
                 <h3 className="text-lg font-bold tracking-tight mb-4 flex items-center gap-2 text-[#F4F6FF] font-display">
-                  <span className="w-2.5 h-2.5 rounded-full bg-[#FFC15E]" />
-                  Light Tiers System
+                  <span className="w-2.5 h-2.5 rounded-full bg-[#2DD4BF]" />
+                  Novascrow Badges System
                 </h3>
 
                 <p className="text-xs text-[#7E86A3] mb-5 leading-relaxed font-sans">
-                  Earn permanent on-chain Light Tiers based on your cumulative contribution volume. Badges are held in our rewards contract:
+                  Earn permanent on-chain Badges based on your cumulative contribution volume. Badges are held in our rewards contract:
                 </p>
 
                 <div className="flex flex-col gap-3">
-                  <div className="flex items-center justify-between bg-[#0A0D1C]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
+                  <div className="flex items-center justify-between bg-[#030D0E]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
                     <div className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-md bg-amber-600/20 border border-amber-600/40 flex items-center justify-center text-xs font-bold text-amber-500 spark-effect">
+                      <span className="w-6 h-6 rounded-md bg-[#0D9488]/20 border border-[#0D9488]/40 flex items-center justify-center text-xs font-bold text-[#2DD4BF] spark-effect">
                         ✸
                       </span>
                       <span className="text-xs font-bold text-[#F4F6FF] font-sans">Spark Tier</span>
@@ -893,7 +893,7 @@ export default function App() {
                     <span className="text-xs font-semibold text-[#7E86A3] font-mono">50+ XLM</span>
                   </div>
 
-                  <div className="flex items-center justify-between bg-[#0A0D1C]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
+                  <div className="flex items-center justify-between bg-[#030D0E]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
                     <div className="flex items-center gap-3">
                       <span className="w-6 h-6 rounded-md bg-slate-400/20 border border-slate-400/40 flex items-center justify-center text-xs font-bold text-slate-300 glow-effect">
                         ❂
@@ -903,9 +903,9 @@ export default function App() {
                     <span className="text-xs font-semibold text-[#7E86A3] font-mono">200+ XLM</span>
                   </div>
 
-                  <div className="flex items-center justify-between bg-[#0A0D1C]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
+                  <div className="flex items-center justify-between bg-[#030D0E]/80 border border-slate-800/60 rounded-xl px-4 py-2.5">
                     <div className="flex items-center gap-3">
-                      <span className="w-6 h-6 rounded-md bg-yellow-400/20 border border-yellow-400/40 flex items-center justify-center text-xs font-bold text-yellow-400 supernova-effect">
+                      <span className="w-6 h-6 rounded-md bg-teal-400/20 border border-teal-400/40 flex items-center justify-center text-xs font-bold text-[#2DD4BF] supernova-effect">
                         ★
                       </span>
                       <span className="text-xs font-bold text-[#F4F6FF] font-sans">Supernova Tier</span>
@@ -922,7 +922,7 @@ export default function App() {
                     href={`https://stellar.expert/explorer/testnet/contract/${REWARDS_BADGE_CONTRACT_ID}`}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-xs text-[#37C6FF] hover:text-[#37C6FF]/80 font-mono transition underline"
+                    className="text-xs text-[#2DD4BF] hover:text-[#2DD4BF]/80 font-mono transition underline"
                   >
                     {REWARDS_BADGE_CONTRACT_ID.slice(0, 6)}...{REWARDS_BADGE_CONTRACT_ID.slice(-6)}
                   </a>
@@ -938,16 +938,16 @@ export default function App() {
         <div className="lg:col-span-4 flex flex-col gap-8">
           
           {/* User Profile Card with Nebula Border-Glow */}
-          <div className="bg-[#12162B]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 shadow-2xl relative overflow-hidden">
+          <div className="bg-[#081B1D]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 shadow-2xl relative overflow-hidden">
             <h3 className="text-lg font-bold tracking-tight mb-4 flex items-center gap-2 text-[#F4F6FF] font-display">
-              <span className="w-2.5 h-2.5 rounded-full bg-[#5B4FE8]" />
+              <span className="w-2.5 h-2.5 rounded-full bg-[#2DD4BF]" />
               Contributor Profile
             </h3>
 
             {walletConnected ? (
               <div className="flex flex-col gap-4">
                 {/* Balance display */}
-                <div className="bg-[#0A0D1C]/80 border border-slate-800 rounded-2xl p-4 flex justify-between items-center shadow-inner">
+                <div className="bg-[#030D0E]/80 border border-slate-800 rounded-2xl p-4 flex justify-between items-center shadow-inner">
                   <div>
                     <span className="text-xs text-[#7E86A3] font-semibold block uppercase tracking-wider font-sans">Your Balance</span>
                     <span className="text-2xl font-bold tracking-tight text-[#F4F6FF] font-mono">
@@ -955,19 +955,19 @@ export default function App() {
                     </span>
                     <span className="text-[#7E86A3] font-medium ml-1.5 text-sm font-sans">XLM</span>
                   </div>
-                  <div className="w-8 h-8 rounded-full bg-[#12162B] flex items-center justify-center border border-slate-850 font-extrabold text-sm text-[#FFC15E] shadow-sm font-mono">
+                  <div className="w-8 h-8 rounded-full bg-[#081B1D] flex items-center justify-center border border-slate-850 font-extrabold text-sm text-[#2DD4BF] shadow-sm font-mono">
                     ¤
                   </div>
                 </div>
 
-                {/* Badge card display with nebula gradient border-glow */}
-                <div className="relative overflow-hidden rounded-2xl p-[1.5px] mt-1 bg-gradient-to-r from-[#5B4FE8] to-[#37C6FF] border-nebula-glow">
-                  <div className="bg-[#12162B] relative rounded-2xl p-4 flex items-center gap-4">
+                {/* Badge card display with teal gradient border-glow */}
+                <div className="relative overflow-hidden rounded-2xl p-[1.5px] mt-1 bg-gradient-to-r from-[#0D9488] to-[#2DD4BF] border-nebula-glow">
+                  <div className="bg-[#081B1D] relative rounded-2xl p-4 flex items-center gap-4">
                     <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${currentBadge.color} flex items-center justify-center text-xl font-black text-[#F4F6FF] shadow-md`}>
                       {userBadgeTier === 1 ? "✸" : userBadgeTier === 2 ? "❂" : userBadgeTier === 3 ? "★" : "Ø"}
                     </div>
                     <div>
-                      <span className="text-xs text-[#7E86A3] font-semibold block uppercase tracking-wider font-sans">Active Light Tier</span>
+                      <span className="text-xs text-[#7E86A3] font-semibold block uppercase tracking-wider font-sans">Active Badge Tier</span>
                       <span className="text-base font-extrabold text-[#F4F6FF] font-display">
                         {currentBadge.name}
                       </span>
@@ -979,19 +979,19 @@ export default function App() {
                 </div>
               </div>
             ) : (
-              <div className="bg-[#0A0D1C]/80 border border-slate-800 rounded-2xl p-6 text-center shadow-inner flex flex-col items-center gap-3">
-                <div className="w-12 h-12 rounded-full bg-[#12162B] border border-slate-800 flex items-center justify-center text-xl text-slate-500 font-mono">
+              <div className="bg-[#030D0E]/80 border border-slate-800 rounded-2xl p-6 text-center shadow-inner flex flex-col items-center gap-3">
+                <div className="w-12 h-12 rounded-full bg-[#081B1D] border border-slate-800 flex items-center justify-center text-xl text-slate-500 font-mono">
                   ?
                 </div>
                 <div>
                   <p className="text-sm font-bold text-slate-300 font-sans">Wallet Not Connected</p>
                   <p className="text-xs text-[#7E86A3] mt-1 max-w-[200px] mx-auto font-sans">
-                    Please connect Freighter to view your XLM balance and active Light Tier.
+                    Please connect Freighter to view your XLM balance and active Badge Tier.
                   </p>
                 </div>
                 <button
                   onClick={handleConnectWallet}
-                  className="mt-2 cursor-pointer bg-[#12162B] hover:bg-slate-850 border border-slate-800 text-xs font-bold px-4 py-2 rounded-xl text-[#37C6FF] hover:text-[#37C6FF]/80 transition font-display"
+                  className="mt-2 cursor-pointer bg-[#081B1D] hover:bg-slate-850 border border-slate-800 text-xs font-bold px-4 py-2 rounded-xl text-[#2DD4BF] hover:text-[#2DD4BF]/80 transition font-display"
                 >
                   Connect Wallet
                 </button>
@@ -1000,7 +1000,7 @@ export default function App() {
           </div>
 
           {/* Live Feed Event Card */}
-          <div className="bg-[#12162B]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 shadow-2xl flex flex-col grow min-h-[400px]">
+          <div className="bg-[#081B1D]/60 backdrop-blur-xl border border-slate-800/80 rounded-3xl p-6 shadow-2xl flex flex-col grow min-h-[400px]">
             <div className="flex items-center justify-between mb-4">
               <h3 className="text-lg font-bold tracking-tight flex items-center gap-2 text-[#F4F6FF] font-display">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#4ADE80] animate-pulse" />
@@ -1008,21 +1008,21 @@ export default function App() {
               </h3>
               <button
                 onClick={loadCampaignData}
-                className="text-xs font-bold text-[#37C6FF] hover:text-[#37C6FF]/80 transition cursor-pointer font-sans"
+                className="text-xs font-bold text-[#2DD4BF] hover:text-[#2DD4BF]/80 transition cursor-pointer font-sans"
               >
                 Refresh
               </button>
             </div>
 
             {/* Filter Tabs */}
-            <div className="grid grid-cols-3 bg-[#0A0D1C]/90 border border-slate-800 rounded-xl p-1 mb-4 shadow-inner">
+            <div className="grid grid-cols-3 bg-[#030D0E]/90 border border-slate-800 rounded-xl p-1 mb-4 shadow-inner">
               {(["all", "donations", "badges"] as const).map((tab) => (
                 <button
                   key={tab}
                   onClick={() => setActiveTab(tab)}
                   className={`text-[10px] font-bold rounded-lg py-1 px-0.5 cursor-pointer uppercase tracking-wider transition font-sans ${
                     activeTab === tab
-                      ? "bg-[#12162B] text-[#37C6FF] shadow-sm"
+                      ? "bg-[#081B1D] text-[#2DD4BF] shadow-sm"
                       : "text-[#7E86A3] hover:text-slate-300"
                   }`}
                 >
@@ -1059,13 +1059,13 @@ export default function App() {
                     let dotColor = "bg-slate-600";
                     let dotClass = "";
                     if (badgeTier === "Bronze") {
-                      dotColor = "bg-[#FFC15E]";
+                      dotColor = "bg-[#0D9488]";
                       dotClass = "spark-effect";
                     } else if (badgeTier === "Silver") {
                       dotColor = "bg-slate-300";
                       dotClass = "glow-effect";
                     } else if (badgeTier === "Gold") {
-                      dotColor = "bg-[#FFC15E]";
+                      dotColor = "bg-[#2DD4BF]";
                       dotClass = "supernova-effect";
                     }
 
@@ -1074,7 +1074,7 @@ export default function App() {
                     return (
                       <div
                         key={ev.id}
-                        className={`bg-[#0A0D1C]/70 border ${isPending ? 'border-[#FFC15E] animate-pulse' : 'border-slate-850'} rounded-xl p-3.5 hover:border-slate-800 transition flex flex-col gap-2 relative overflow-hidden group animate-fade-in`}
+                        className={`bg-[#030D0E]/70 border ${isPending ? 'border-[#2DD4BF] animate-pulse' : 'border-slate-850'} rounded-xl p-3.5 hover:border-slate-800 transition flex flex-col gap-2 relative overflow-hidden group animate-fade-in`}
                       >
                         <div className="flex justify-between items-center border-b border-slate-900 pb-1.5 mb-1.5">
                           <span className="text-[10px] font-bold text-[#7E86A3] tracking-wider font-mono">
@@ -1084,7 +1084,7 @@ export default function App() {
                             href={`https://stellar.expert/explorer/testnet/tx/${ev.id.split("-")[0]}`}
                             target="_blank"
                             rel="noreferrer"
-                            className="text-[10px] text-[#37C6FF] hover:text-[#37C6FF]/80 hover:underline font-bold transition font-sans"
+                            className="text-[10px] text-[#2DD4BF] hover:text-[#2DD4BF]/80 hover:underline font-bold transition font-sans"
                           >
                             Details ↗
                           </a>
@@ -1095,7 +1095,7 @@ export default function App() {
                             <div className="text-[#F4F6FF] leading-normal flex items-center justify-between">
                               <div className="flex items-center gap-2">
                                 <span className={`w-2 h-2 rounded-full ${dotColor} ${dotClass} inline-block`} />
-                                <span className="font-mono font-bold text-[#FFC15E]">
+                                <span className="font-mono font-bold text-[#2DD4BF]">
                                   +{ev.amount ?? 0} XLM
                                 </span>
                                 <span className="text-[#7E86A3] text-[10px] font-mono">
