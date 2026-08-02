@@ -3,7 +3,7 @@
 ### Trustless Crowdfunding and Milestone-Based Reward Badges on Stellar Soroban
 *A production-ready decentralized crowdfunding suite built for Level 5 (Blue Belt) of the Stellar Builder Challenge.*
 
-[![CI/CD Pipeline](https://github.com/Abhishek86038/Novascrow/actions/workflows/ci.yml/badge.svg)](https://github.com/Abhishek86038/Novascrow/actions)
+[![CI/CD Pipeline](https://github.com/abhishek86038/Novascrow-level-4/actions/workflows/ci.yml/badge.svg)](https://github.com/abhishek86038/Novascrow-level-4/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -198,13 +198,13 @@ Based on the feedback collected from our beta users, we identified key pain poin
 
 | Feedback Theme | Improvement Made | Commit |
 |---|---|---|
-| Onboarding Friction | Enhanced `OnboardingModal` with a step-by-step walkthrough, direct Freighter links, and an embedded Friendbot testnet XLM faucet. | [185fd60](https://github.com/Abhishek86038/Novascrow/commit/185fd60) |
-| Confusing Milestone UX | Added visual progress indicator bars and explanatory state tooltips to `MilestoneDashboard.tsx` so users understand locked/reached states. | [c21546f](https://github.com/Abhishek86038/Novascrow/commit/c21546f) |
-| Slow Perceived Performance | Refactored the core application to instantly render "Pending" UI states for donations and voting via Optimistic UI patterns. | [1b5a708](https://github.com/Abhishek86038/Novascrow/commit/1b5a708) |
-| Trust/Clarity Issues | Added a detailed "How does voting work?" explainer section above the dashboard to clarify the trust mechanics and voting power rules. | [e71d3f2](https://github.com/Abhishek86038/Novascrow/commit/e71d3f2) |
-| Clipboard Accessibility | Added a copy to clipboard helper button in OnboardingModal for contracts. | [ba97ce6](https://github.com/Abhishek86038/Novascrow/commit/ba97ce6) |
-| Visual Polish & Toast Styling | Improved optimistic UI and added inline transaction status logs. | [041ac17](https://github.com/Abhishek86038/Novascrow/commit/041ac17) |
-| empty state visual | Created an empty state fallback widget for the campaign contributions and milestones. | [55e3575](https://github.com/Abhishek86038/Novascrow/commit/55e3575) |
+| Onboarding Friction | Enhanced `OnboardingModal` with a step-by-step walkthrough, direct Freighter links, and an embedded Friendbot testnet XLM faucet. | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
+| Confusing Milestone UX | Added visual progress indicator bars and explanatory state tooltips to `MilestoneDashboard.tsx` so users understand locked/reached states. | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
+| Slow Perceived Performance | Refactored the core application to instantly render "Pending" UI states for donations and voting via Optimistic UI patterns. | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
+| Trust/Clarity Issues | Added a detailed "How does voting work?" explainer section above the dashboard to clarify the trust mechanics and voting power rules. | [e71d3f2](https://github.com/abhishek86038/Novascrow-level-4/commit/e71d3f2) |
+| Clipboard Accessibility | Added a copy to clipboard helper button in OnboardingModal for contracts. | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
+| Visual Polish & Toast Styling | Improved optimistic UI and added inline transaction status logs. | [041ac17](https://github.com/abhishek86038/Novascrow-level-4/commit/041ac17) |
+| empty state visual | Created an empty state fallback widget for the campaign contributions and milestones. | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
 
 ### Users Onboarded Table
 Below is the summary of the onboarded users who will interact with the platform and submit their feedback:
@@ -219,8 +219,8 @@ Below is the summary of the onboarded users who will interact with the platform 
 
 | User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
 | --- | --- | --- | --- | --- | --- | --- |
-| USER_01 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/Abhishek86038/Novascrow/commit/commit-id)` |
-| USER_02 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/Abhishek86038/Novascrow/commit/commit-id)` |
+| USER_01 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/abhishek86038/Novascrow-level-4/commit/commit-id)` |
+| USER_02 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/abhishek86038/Novascrow-level-4/commit/commit-id)` |
 
 ---
 
@@ -331,6 +331,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 22. Developer & Repository Information
 
-- **Developer Name:** Abhishek86038
+- **Developer Name:** abhishek86038
 - **Email:** abhishekkumar086038@gmail.com
-- **Repository URL:** [https://github.com/Abhishek86038/Novascrow](https://github.com/Abhishek86038/Novascrow)
+- **Repository URL:** [https://github.com/abhishek86038/Novascrow-level-4](https://github.com/abhishek86038/Novascrow-level-4)
