@@ -167,7 +167,7 @@ Stellar's fast transaction speeds and negligible fees make micro-donations and c
 
 ---
 
-## 11. Running Tests
+## 11. Automated Testing Suite
 
 ### Smart Contract Tests (Rust)
 Validates the entire escrow workflow: donations, weighted voting math, successful releases, and proportional refunds.
