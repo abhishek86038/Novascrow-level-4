@@ -49,7 +49,7 @@ export default function App() {
   }
   const [shootingStars, setShootingStars] = useState<ShootingStar[]>([]);
 
-  // Action states
+  // Internal state flags for action loaders and transaction feedback
   const [donateAmount, setDonateAmount] = useState<string>("50");
   const [loadingAction, setLoadingAction] = useState<string>(""); // "", "preparing", "freighter", "chain", "success", "error"
   const [errorMessage, setErrorMessage] = useState("");
