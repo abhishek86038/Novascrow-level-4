@@ -352,7 +352,7 @@ export default function App() {
 
   const upcomingBadge = getUpcomingBadgeInfo();
 
-  // Progress calculations
+  // Escrow milestone progress and percentage computations
   const progressPercent = Math.min(100, Math.floor((raised / goal) * 100));
 
   const filteredEvents = events.filter((ev) => {
