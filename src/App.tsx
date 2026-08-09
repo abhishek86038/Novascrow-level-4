@@ -161,28 +161,6 @@ export default function App() {
     return { x2, y2, opacity: 1 };
   };
 
-  // Parametric star generator
-  const drawStarPath = (cx: number, cy: number, rOuter: number, rInner: number) => {
-    let path = "";
-    for (let i = 0; i < 5; i++) {
-      const angleOuter = (i * 72 - 90) * (Math.PI / 180);
-      const xOuter = cx + rOuter * Math.cos(angleOuter);
-      const yOuter = cy + rOuter * Math.sin(angleOuter);
-
-      const angleInner = ((i + 0.5) * 72 - 90) * (Math.PI / 180);
-      const xInner = cx + rInner * Math.cos(angleInner);
-      const yInner = cy + rInner * Math.sin(angleInner);
-
-      if (i === 0) {
-        path += `M ${xOuter} ${yOuter} L ${xInner} ${yInner} `;
-      } else {
-        path += `L ${xOuter} ${yOuter} L ${xInner} ${yInner} `;
-      }
-    }
-    path += "Z";
-    return path;
-  };
-
   // Listen for new transactions to fire shooting stars
   const prevEventsRef = useRef<CampaignEvent[]>([]);
   useEffect(() => {
@@ -1147,37 +1125,36 @@ export default function App() {
             </div>
 
           </div>
+        </div>
 
-          <div className="lg:col-span-12 space-y-6">
-            <div className="bg-[#12162B]/80 border border-slate-800 rounded-3xl p-5 md:p-8 shadow-2xl">
-              <h3 className="text-lg font-bold text-[#37C6FF] mb-3 flex items-center gap-2">
-                <span className="w-5 h-5 rounded-full bg-[#37C6FF]/20 flex items-center justify-center">?</span>
-                How does voting work?
-              </h3>
-              <p className="text-sm text-slate-300 leading-relaxed mb-4">
-                Your voting power is directly proportional to your total <strong>XLM contributed</strong>. Every lumen you donate gives you more say in the project's future! When a milestone reaches 100% funding, the creator submits proof of completion. You can review their proof and vote to:
-              </p>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
-                <div className="bg-[#0A0D1C] p-4 rounded-xl border border-slate-800">
-                  <div className="text-[#4ADE80] font-bold mb-1">👍 Approve</div>
-                  <div className="text-slate-400">If the majority approves, the milestone unlocks and 25% of the total funds are securely released to the creator to continue building.</div>
-                </div>
-                <div className="bg-[#0A0D1C] p-4 rounded-xl border border-slate-800">
-                  <div className="text-[#FF6B6B] font-bold mb-1">👎 Reject</div>
-                  <div className="text-slate-400">If the creator fails to deliver and the majority rejects, the milestone is cancelled and you can claim a refund for your unspent funds!</div>
-                </div>
+        <div className="lg:col-span-12 space-y-6">
+          <div className="bg-[#12162B]/80 border border-slate-800 rounded-3xl p-5 md:p-8 shadow-2xl">
+            <h3 className="text-lg font-bold text-[#37C6FF] mb-3 flex items-center gap-2">
+              <span className="w-5 h-5 rounded-full bg-[#37C6FF]/20 flex items-center justify-center">?</span>
+              How does voting work?
+            </h3>
+            <p className="text-sm text-slate-300 leading-relaxed mb-4">
+              Your voting power is directly proportional to your total <strong>XLM contributed</strong>. Every lumen you donate gives you more say in the project's future! When a milestone reaches 100% funding, the creator submits proof of completion. You can review their proof and vote to:
+            </p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+              <div className="bg-[#0A0D1C] p-4 rounded-xl border border-slate-800">
+                <div className="text-[#4ADE80] font-bold mb-1">👍 Approve</div>
+                <div className="text-slate-400">If the majority approves, the milestone unlocks and 25% of the total funds are securely released to the creator to continue building.</div>
+              </div>
+              <div className="bg-[#0A0D1C] p-4 rounded-xl border border-slate-800">
+                <div className="text-[#FF6B6B] font-bold mb-1">👎 Reject</div>
+                <div className="text-slate-400">If the creator fails to deliver and the majority rejects, the milestone is cancelled and you can claim a refund for your unspent funds!</div>
               </div>
             </div>
-
-            <MilestoneDashboard 
-              milestones={milestones}
-              userAddress={userAddress}
-              walletConnected={walletConnected}
-              reloadData={loadCampaignData}
-              goal={goal}
-            />
           </div>
 
+          <MilestoneDashboard 
+            milestones={milestones}
+            userAddress={userAddress}
+            walletConnected={walletConnected}
+            reloadData={loadCampaignData}
+            goal={goal}
+          />
         </div>
 
       </main>
