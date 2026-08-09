@@ -68,7 +68,7 @@ Stellar's fast transaction speeds and negligible fees make micro-donations and c
 
 ---
 
-## 5. Features
+## 5. Key Product Features
 
 - **Milestone Dashboard**: Real-time visualization of 4 distinct project milestones (Locked, Reached, ProofSubmitted, Released, Rejected).
 - **Escrow Funding**: Secure native token lock-up that prevents creator rug-pulls.
