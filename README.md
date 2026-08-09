@@ -155,7 +155,7 @@ Stellar's fast transaction speeds and negligible fees make micro-donations and c
 
 ---
 
-## 10. How to Use
+## 10. Step-by-Step Usage Guide
 
 1. **Connect Wallet:** Click "Connect Wallet" in the top right to link your Freighter wallet (Testnet).
 2. **Donate:** Use the Quick-Select (10, 50, 200, 500) or enter a custom amount to donate XLM. Sign the transaction in Freighter. Your funds are now in Escrow and you've minted a Reward Badge.
