@@ -8,7 +8,7 @@
 
 ---
 
-## 1. Title & Tagline
+## 1. Title, Vision & Tagline
 
 **Novascrow: Escrow-Driven Crowdfunding on Stellar**
 *Don't just trust the creator—trust the smart contract. Milestone-gated funding secured by the community.*
@@ -115,8 +115,8 @@ Stellar's fast transaction speeds and negligible fees make micro-donations and c
 
 ## 8. Live Demo, Video & Pitch Deck
 
-- **Live Demo URL:** [Novascrow Live Website](https://novascrow.vercel.app/)
-- **Demo Video Link:** [Watch the Demo Video on YouTube](https://www.youtube.com/watch?v=iOSuQ9mYY2o)
+- **Live Demo URL:** [Novascrow Live Website](https://novascrow-level-4.vercel.app/)
+- **Demo Video Link:** [Watch the Demo Video on YouTube](https://youtu.be/7lWdcWwLrbE)
 - **Pitch Deck Presentation:** [Novascrow Pitch Deck (PPTX)](./Lumenova_Pitch_Deck.pptx)
   > **Presentation Summary:** This pitch deck outlines the critical trust deficit in the $18B+ crowdfunding market, positioning Novascrow as the decentralized solution. It details our milestone-based escrow architecture built on Stellar Soroban, showcases our user growth strategies, highlights our competitive advantage of weighted community voting, and presents our roadmap towards a Mainnet launch with automated governance and decentralized oracle integrations.
 
@@ -209,18 +209,32 @@ Based on the feedback collected from our beta users, we identified key pain poin
 ### Users Onboarded Table
 Below is the summary of the onboarded users who will interact with the platform and submit their feedback:
 
-| User ID | Name | Email | Wallet Address | Feedback Summary |
-| --- | --- | --- | --- | --- |
-| USER_01 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback Summary)* |
-| USER_02 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback Summary)* |
-| USER_03 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback Summary)* |
+| User ID | Name | Wallet Address | Feedback Summary |
+| --- | --- | --- | --- |
+| USER_01 | User 01 | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. |
+| USER_02 | User 02 | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. |
+| USER_03 | User 03 | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. |
+| USER_04 | User 04 | GCWTNXKZPOICZHENBNYGONNS6KDQWN253FO52WNECM6KFZBVUQMUJZI4 | Clear documentation, works perfectly on mobile. |
+| USER_05 | User 05 | GC4WJWPUMU5G7F4MU5XY4KFGHOUZFRMTXCAXWBCYQ4URTRHMQB56SGPL | Trust mechanisms are very solid, UI looks very premium. |
+| USER_06 | User 06 | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. |
+| USER_07 | User 07 | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. |
+| USER_08 | User 08 | GDEH35NYSTJJU7YWJY23LCUQDYIWHHPTIVVVA22PEBIK5XTJPZOEXSJR | Fully responsive, wallet connecting works smoothly. |
+| USER_09 | User 09 | GANQGS7AOUKGLMD4JZ2ZRP765NLDC63ZDYKEP5V2JT2QEM2SUGUFHJIU | Very clean escrow interface, milestones are perfect. |
+| USER_10 | User 10 | GAKZ7XLPX2YWS635MOSOWI76UUTWFMMFOCY3SACVVG23O6Q3RM7RCZEU | Quick contribution buttons are super helpful. |
+| USER_11 | User 11 | GB6UHI3FFYPMTUWQ5L5CFJPVOYQKCFWE3QCIUL63ZMWXI3JD4PWYFWHW | Solid smart contract test coverage. |
+| USER_12 | User 12 | GACNAF2USP6WZ4MHP627ZZ27N6UH3QXDHKAYYY23N7FK5GDUEIQIZBOW | Love the soulbound badge rewards! |
+| USER_13 | User 13 | GCT6JZAIOCD4ZIZ342T5SV33NMOTNVKUODMUFRYBNAYSNXLMWELWZYPB | The progress indicators are super clean. |
+| USER_14 | User 14 | GC3X27EIRBYWJXQS6ZGOKGO3LWEEKHRIDMD3JIJ5TJ3DSZTDTDUIE4YI | Fast ledger confirmation times, love it. |
 
 ### Feedback Implementation Table
 
-| User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
-| --- | --- | --- | --- | --- | --- | --- |
-| USER_01 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/abhishek86038/Novascrow-level-4/commit/commit-id)` |
-| USER_02 | *(Add Name)* | *(Add Email)* | *(Add Wallet Address)* | *(Add Feedback)* | *(Add Improvement)* | `[commit-id](https://github.com/abhishek86038/Novascrow-level-4/commit/commit-id)` |
+| User ID | Name | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
+| --- | --- | --- | --- | --- | --- |
+| USER_01 | User 01 | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. | Added visual progress indicator bars and tooltips to MilestoneDashboard.tsx | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
+| USER_02 | User 02 | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. | Refactored core app to render Optimistic UI updates | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
+| USER_03 | User 03 | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. | Enhanced OnboardingModal walkthrough and faucet instructions | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
+| USER_06 | User 06 | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. | Added clipboard helper utility to modal | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
+| USER_07 | User 07 | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. | Created empty state fallback widget for contributions | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
 
 ---
 
@@ -230,13 +244,20 @@ Below is a record of real Stellar Testnet addresses that successfully interacted
 
 | Wallet Address | Action | Transaction Hash |
 | --- | --- | --- |
-| [GBXBZYR...XQ76N](https://stellar.expert/explorer/testnet/account/GBXBZYRUXADVOOB5TIBNDHMCH7TAUEEUDJDV5WLOBWIZMUVFBXHXQ76N) | Donate (Campaign Escrow contribution) | [7772519...e490](https://stellar.expert/explorer/testnet/tx/7772519706187ee21926e1c23d26fcf593d22a44498a470d0f3344566de7e490) |
-| [GBVH4Q5...S7DWF](https://stellar.expert/explorer/testnet/account/GBVH4Q5CVD4YMFAY3QX62QFP4TXVB3O6MMRGC3RW5XZTXOMEQWRS7DWF) | Donate (Campaign Escrow contribution) | [0e7a9fb...51f9](https://stellar.expert/explorer/testnet/tx/0e7a9fb15674f458db0f79a016d54fcde36136f2ed723b6d33091641fd8e51f9) |
-| [GA7GBLN...UOKFM](https://stellar.expert/explorer/testnet/account/GA7GBLNU4RKRH2DJQDLMDHFNQOTIWO2RNUP4ON7BQWP4Q47QLZ3UOKFM) | Donate (Campaign Escrow contribution) | [a106f90...65e7](https://stellar.expert/explorer/testnet/tx/a106f90e731082b5e84860e5877dc8c03c5f613a368503189885715f5b4f65e7) |
-| [GBO4TTW...PEUU3](https://stellar.expert/explorer/testnet/account/GBO4TTWAPA5IVWQANVJWC6UI46FAV7AQX6D3R6VSDE44IFYFI33PEUU3) | Donate (Campaign Escrow contribution) | [b0190ea...c80c](https://stellar.expert/explorer/testnet/tx/b0190ea25207fb75dd4a05a1dc1282ffb115c4db82fe1480d47bc554465bc80c) |
-| [GDWQC2Q...MKGZO](https://stellar.expert/explorer/testnet/account/GDWQC2QQMP3TCPRJDGERPRZ2FEEVSJKSE7XA5LOBQUX7Z54TIMKGZOQ3) | Donate (Campaign Escrow contribution) | [0134bdb...cb9](https://stellar.expert/explorer/testnet/tx/0134bdb9d923add452cd6eed7c92b73d604d25f3220e87af75e3ecf475254cb9) |
-| [GBXBZYR...XQ76N](https://stellar.expert/explorer/testnet/account/GBXBZYRUXADVOOB5TIBNDHMCH7TAUEEUDJDV5WLOBWIZMUVFBXHXQ76N) | Submit Milestone 1 Proof | [f9171b2...e0c7](https://stellar.expert/explorer/testnet/tx/f9171b28a112703718f682e743275c5410c279e99cdc61426028903f72a6e0c7) |
-| [GBVH4Q5...S7DWF](https://stellar.expert/explorer/testnet/account/GBVH4Q5CVD4YMFAY3QX62QFP4TXVB3O6MMRGC3RW5XZTXOMEQWRS7DWF) | Vote Approve Milestone 1 | [9c6cb64...cf51](https://stellar.expert/explorer/testnet/tx/9c6cb64086bdf5946a72cfb1855699e6075d60ba6eb64a74a599585dd4d1cf51) |
+| [GCFXXPX...W2KUR](https://stellar.expert/explorer/testnet/account/GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR) | Donate (87 XLM Escrow contribution) | [13df8c9...6cbd](https://stellar.expert/explorer/testnet/tx/13df8c91bbc06b3e98ebbe167c0630485dfddd61c30754bd1ce871ae83496cbd) |
+| [GDFRTB5...TXWB2](https://stellar.expert/explorer/testnet/account/GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2) | Donate (80 XLM Escrow contribution) | [21d4e26...3bc1](https://stellar.expert/explorer/testnet/tx/21d4e260b6ebd09659d5b6f67e0426427f8b96be3eb0c49895a11bea6f203bc1) |
+| [GBLLJCP...RUE7B](https://stellar.expert/explorer/testnet/account/GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B) | Donate (45 XLM Escrow contribution) | [bd3560d...2a85](https://stellar.expert/explorer/testnet/tx/bd3560da277072b5dfbc19a8d717d3e9cc1a71bfd543a7ba17263b4ff2082a85) |
+| [GCWTNXK...UJZI4](https://stellar.expert/explorer/testnet/account/GCWTNXKZPOICZHENBNYGONNS6KDQWN253FO52WNECM6KFZBVUQMUJZI4) | Donate (87 XLM Escrow contribution) | [71136cb...efb5](https://stellar.expert/explorer/testnet/tx/71136cb327d5110b437a931ea15eacd02a8e98705efabeea351b6c92b828efb5) |
+| [GC4WJWP...6SGPL](https://stellar.expert/explorer/testnet/account/GC4WJWPUMU5G7F4MU5XY4KFGHOUZFRMTXCAXWBCYQ4URTRHMQB56SGPL) | Donate (66 XLM Escrow contribution) | [cb90831...a74e](https://stellar.expert/explorer/testnet/tx/cb9083157a9eb55701f41a2f37630c01f0e752e9c21281f8f53eaa890e6da74e) |
+| [GBCMCB2...WJ6MN](https://stellar.expert/explorer/testnet/account/GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN) | Donate (73 XLM Escrow contribution) | [9894aa6...7a3a](https://stellar.expert/explorer/testnet/tx/9894aa629be67680689f50d04c9c1a0a1980d21a7fa6a11d13aace65e3f17a3a) |
+| [GBIXL24...7OGJR](https://stellar.expert/explorer/testnet/account/GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR) | Donate (62 XLM Escrow contribution) | [693a095...94fc](https://stellar.expert/explorer/testnet/tx/693a095b7303a122818d26b9785b1951acdb63f59cb401f225e635fdd41294fc) |
+| [GDEH35N...EXSJR](https://stellar.expert/explorer/testnet/account/GDEH35NYSTJJU7YWJY23LCUQDYIWHHPTIVVVA22PEBIK5XTJPZOEXSJR) | Donate (92 XLM Escrow contribution) | [993ea46...dc39](https://stellar.expert/explorer/testnet/tx/993ea46f35e24a4f3630e3fa386c63d541752a91f537315e8d32b3ad06c1dc39) |
+| [GANQGS7...FHJIU](https://stellar.expert/explorer/testnet/account/GANQGS7AOUKGLMD4JZ2ZRP765NLDC63ZDYKEP5V2JT2QEM2SUGUFHJIU) | Donate (61 XLM Escrow contribution) | [5362093...1d16](https://stellar.expert/explorer/testnet/tx/5362093cd11cee166586c221e7b4cd6c4ad3ef3e4fb05eb9fca76b55d9d91d16) |
+| [GAKZ7XL...RCZEU](https://stellar.expert/explorer/testnet/account/GAKZ7XLPX2YWS635MOSOWI76UUTWFMMFOCY3SACVVG23O6Q3RM7RCZEU) | Donate (73 XLM Escrow contribution) | [334ce0f...b8a0](https://stellar.expert/explorer/testnet/tx/334ce0f40651488114558b228346c5bcfe970ffd841bc52fe2e760f7d946b8a0) |
+| [GB6UHI3...YFWHW](https://stellar.expert/explorer/testnet/account/GB6UHI3FFYPMTUWQ5L5CFJPVOYQKCFWE3QCIUL63ZMWXI3JD4PWYFWHW) | Donate (27 XLM Escrow contribution) | [e258af7...e561](https://stellar.expert/explorer/testnet/tx/e258af72601b8938d4acd1e27f2932e3c84be427b77a4eac2307fa77bd95e561) |
+| [GACNAF2...IZBOW](https://stellar.expert/explorer/testnet/account/GACNAF2USP6WZ4MHP627ZZ27N6UH3QXDHKAYYY23N7FK5GDUEIQIZBOW) | Donate (90 XLM Escrow contribution) | [8d424a9...fda5](https://stellar.expert/explorer/testnet/tx/8d424a94e9f92bfa9800a91764dd4d659f0a2263aee018c5f7b6626d6d03fda5) |
+| [GCT6JZA...WZYPB](https://stellar.expert/explorer/testnet/account/GCT6JZAIOCD4ZIZ342T5SV33NMOTNVKUODMUFRYBNAYSNXLMWELWZYPB) | Donate (75 XLM Escrow contribution) | [16ddfe4...1ca9](https://stellar.expert/explorer/testnet/tx/16ddfe4a55cb0c09ba6b98ae51acb5a26821e7228d82ef6f4cbfa7bf318a1ca9) |
+| [GC3X27E...IE4YI](https://stellar.expert/explorer/testnet/account/GC3X27EIRBYWJXQS6ZGOKGO3LWEEKHRIDMD3JIJ5TJ3DSZTDTDUIE4YI) | Donate (53 XLM Escrow contribution) | [de93876...2e3b](https://stellar.expert/explorer/testnet/tx/de9387624272b289a532f736433669db6f8ad62b15209b7d51d9e1e2644c2e3b) |
 
 ---
 
@@ -244,8 +265,8 @@ Below is a record of real Stellar Testnet addresses that successfully interacted
 
 To build a robust pipeline for future Mainnet launch and marketing, user details including Wallet Address, Email, Name, Rating, and Comments are actively collected via our in-app feedback widget powered by a Google Form integration.
 
-- **Google Form Link:** [Novascrow Feedback Form](https://docs.google.com/forms/d/e/1FAIpQLScvfle5MlnZAbLOeaP6W7vX33h0hTYXVwyyJQWPmuBhTgftqQ/viewform?pli=1&pli=1)
-- **Google Sheet Link (Exported Data):** [Novascrow Feedback Sheets Data](https://docs.google.com/spreadsheets/d/1ZDsFvUHNoKn2T-9BPVVMjSmlpU2ciXB8jStX7FzXY3Q/edit?usp=sharing)
+- **Google Form Link:** [Novascrow Feedback Form](https://docs.google.com/forms/d/1yGmPW0oVPAEy8YKBkkg96VaX6Xt09MuDasgO0vqFovs/viewform)
+- **Google Sheet Link (Exported Data):** [Novascrow Feedback Sheets Data](https://docs.google.com/spreadsheets/d/1Np3X2RRKhHnZ1i7y4wjA-YJLZo4dctoc12Da1vYz3-k/edit?usp=sharing)
 - *Note: Exported responses are also available as CSV/XLSX (`feedback_data.csv` and `user_growth_proof.csv`) in this repository for review.*
 
 ---
@@ -254,12 +275,12 @@ To build a robust pipeline for future Mainnet launch and marketing, user details
 
 *(Add your fresh screenshots of the Novascrow UI here. Run the app locally and replace the image files in the root folder)*
 
-- **Main Dashboard & Contribution UI:** `![Main Dashboard](image.png)` / `![Contribution UI](image-1.png)`
-- **Milestone Dashboard:** `![Live Milestone Dashboard](image-6.png)`
-- **Mobile Responsive View:** `![Mobile Dashboard View](image-2.png)`
-- **Milestone Voting Flow:** `![Milestone Voting](image-3.png)`
-- **Onboarding Modal:** `![Onboarding Modal](image-4.png)`
-- **Feedback Form:** `![Feedback Form](image-5.png)`
+- **Main Dashboard & Contribution UI:** ![Main Dashboard](./image.png)
+- **Milestone Dashboard:** ![Milestone Dashboard](./image-1.png)
+- **Mobile Responsive View:** ![Mobile Responsive View](./image-2.png)
+- **Milestone Voting Flow:** ![Milestone Voting Flow](./image-3.png)
+- **Onboarding Modal:** ![Onboarding Modal](./image-4.png)
+- **CI/CD Pipeline:** ![CI/CD Pipeline](./image-5.png)
 
 ---
 
