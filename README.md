@@ -209,32 +209,32 @@ Based on the feedback collected from our beta users, we identified key pain poin
 ### Users Onboarded Table
 Below is the summary of the onboarded users who will interact with the platform and submit their feedback:
 
-| User ID | Name | Wallet Address | Feedback Summary |
-| --- | --- | --- | --- |
-| USER_01 | User 01 | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. |
-| USER_02 | User 02 | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. |
-| USER_03 | User 03 | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. |
-| USER_04 | User 04 | GCWTNXKZPOICZHENBNYGONNS6KDQWN253FO52WNECM6KFZBVUQMUJZI4 | Clear documentation, works perfectly on mobile. |
-| USER_05 | User 05 | GC4WJWPUMU5G7F4MU5XY4KFGHOUZFRMTXCAXWBCYQ4URTRHMQB56SGPL | Trust mechanisms are very solid, UI looks very premium. |
-| USER_06 | User 06 | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. |
-| USER_07 | User 07 | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. |
-| USER_08 | User 08 | GDEH35NYSTJJU7YWJY23LCUQDYIWHHPTIVVVA22PEBIK5XTJPZOEXSJR | Fully responsive, wallet connecting works smoothly. |
-| USER_09 | User 09 | GANQGS7AOUKGLMD4JZ2ZRP765NLDC63ZDYKEP5V2JT2QEM2SUGUFHJIU | Very clean escrow interface, milestones are perfect. |
-| USER_10 | User 10 | GAKZ7XLPX2YWS635MOSOWI76UUTWFMMFOCY3SACVVG23O6Q3RM7RCZEU | Quick contribution buttons are super helpful. |
-| USER_11 | User 11 | GB6UHI3FFYPMTUWQ5L5CFJPVOYQKCFWE3QCIUL63ZMWXI3JD4PWYFWHW | Solid smart contract test coverage. |
-| USER_12 | User 12 | GACNAF2USP6WZ4MHP627ZZ27N6UH3QXDHKAYYY23N7FK5GDUEIQIZBOW | Love the soulbound badge rewards! |
-| USER_13 | User 13 | GCT6JZAIOCD4ZIZ342T5SV33NMOTNVKUODMUFRYBNAYSNXLMWELWZYPB | The progress indicators are super clean. |
-| USER_14 | User 14 | GC3X27EIRBYWJXQS6ZGOKGO3LWEEKHRIDMD3JIJ5TJ3DSZTDTDUIE4YI | Fast ledger confirmation times, love it. |
+| User ID | Name | Email | Wallet Address | Feedback Summary |
+| --- | --- | --- | --- | --- |
+| USER_01 | Kavita Tiwari | 9988kavitatiwari@gmail.com | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. |
+| USER_02 | Anil Kumar | anil.kumar1508@gmail.com | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. |
+| USER_03 | Sunita Mishra | sunita456mishra@gmail.com | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. |
+| USER_04 | Rohit Chauhan | rohitc98765@gmail.com | GCWTNXKZPOICZHENBNYGONNS6KDQWN253FO52WNECM6KFZBVUQMUJZI4 | Clear documentation, works perfectly on mobile. |
+| USER_05 | Priya Jain | priya1990jain@gmail.com | GC4WJWPUMU5G7F4MU5XY4KFGHOUZFRMTXCAXWBCYQ4URTRHMQB56SGPL | Trust mechanisms are very solid, UI looks very premium. |
+| USER_06 | Ramesh Sharma | ramesh.sharma4321@gmail.com | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. |
+| USER_07 | Geeta Patel | geetapatel2405@gmail.com | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. |
+| USER_08 | Suresh Singh | sureshsingh7788@gmail.com | GDEH35NYSTJJU7YWJY23LCUQDYIWHHPTIVVVA22PEBIK5XTJPZOEXSJR | Fully responsive, wallet connecting works smoothly. |
+| USER_09 | Aarti Gupta | aarti.g009@gmail.com | GANQGS7AOUKGLMD4JZ2ZRP765NLDC63ZDYKEP5V2JT2QEM2SUGUFHJIU | Very clean escrow interface, milestones are perfect. |
+| USER_10 | Manoj Yadav | manoj99yadav@gmail.com | GAKZ7XLPX2YWS635MOSOWI76UUTWFMMFOCY3SACVVG23O6Q3RM7RCZEU | Quick contribution buttons are super helpful. |
+| USER_11 | Jyoti Tiwari | jyoti.tiwari9900@gmail.com | GB6UHI3FFYPMTUWQ5L5CFJPVOYQKCFWE3QCIUL63ZMWXI3JD4PWYFWHW | Solid smart contract test coverage. |
+| USER_12 | Deepak Kumar | deepak0101kumar@gmail.com | GACNAF2USP6WZ4MHP627ZZ27N6UH3QXDHKAYYY23N7FK5GDUEIQIZBOW | Love the soulbound badge rewards! |
+| USER_13 | Rekha Mishra | r.mishra1234@gmail.com | GCT6JZAIOCD4ZIZ342T5SV33NMOTNVKUODMUFRYBNAYSNXLMWELWZYPB | The progress indicators are super clean. |
+| USER_14 | Nisha Verma | nisha.verma88@gmail.com | GC3X27EIRBYWJXQS6ZGOKGO3LWEEKHRIDMD3JIJ5TJ3DSZTDTDUIE4YI | Fast ledger confirmation times, love it. |
 
 ### Feedback Implementation Table
 
-| User ID | Name | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
-| --- | --- | --- | --- | --- | --- |
-| USER_01 | User 01 | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. | Added visual progress indicator bars and tooltips to MilestoneDashboard.tsx | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
-| USER_02 | User 02 | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. | Refactored core app to render Optimistic UI updates | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
-| USER_03 | User 03 | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. | Enhanced OnboardingModal walkthrough and faucet instructions | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
-| USER_06 | User 06 | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. | Added clipboard helper utility to modal | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
-| USER_07 | User 07 | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. | Created empty state fallback widget for contributions | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
+| User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
+| --- | --- | --- | --- | --- | --- | --- |
+| USER_01 | Kavita Tiwari | 9988kavitatiwari@gmail.com | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. | Added visual progress indicator bars and tooltips to MilestoneDashboard.tsx | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
+| USER_02 | Anil Kumar | anil.kumar1508@gmail.com | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. | Refactored core app to render Optimistic UI updates | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
+| USER_03 | Sunita Mishra | sunita456mishra@gmail.com | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. | Enhanced OnboardingModal walkthrough and faucet instructions | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
+| USER_06 | Ramesh Sharma | ramesh.sharma4321@gmail.com | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. | Added clipboard helper utility to modal | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
+| USER_07 | Geeta Patel | geetapatel2405@gmail.com | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. | Created empty state fallback widget for contributions | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
 
 ---
 
