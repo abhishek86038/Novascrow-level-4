@@ -344,7 +344,7 @@ Novascrow/
 
 ---
 
-## 21. License
+## 21. Open-Source License
 
 This project is licensed under the [MIT License](LICENSE).
 
