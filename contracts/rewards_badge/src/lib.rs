@@ -6,6 +6,7 @@ use soroban_sdk::{contract, contractimpl, contracttype, Address, Env, Symbol};
 enum DataKey {
     Admin,
     Badge(Address),
+    CrowdfundingContract,
 }
 
 #[contract]
@@ -20,9 +21,20 @@ impl RewardsBadgeContract {
         env.storage().instance().set(&DataKey::Admin, &admin);
     }
 
-    pub fn mint_badge(env: Env, donor: Address, tier: u32) {
+    pub fn set_crowdfunding_contract(env: Env, crowdfunding: Address) {
         let admin: Address = env.storage().instance().get(&DataKey::Admin).expect("Not initialized");
         admin.require_auth();
+        env.storage().instance().set(&DataKey::CrowdfundingContract, &crowdfunding);
+    }
+
+    pub fn mint_badge(env: Env, donor: Address, tier: u32) {
+        let admin: Address = env.storage().instance().get(&DataKey::Admin).expect("Not initialized");
+        
+        if let Some(cf) = env.storage().instance().get::<_, Address>(&DataKey::CrowdfundingContract) {
+            cf.require_auth();
+        } else {
+            admin.require_auth();
+        }
 
         env.storage().persistent().set(&DataKey::Badge(donor.clone()), &tier);
 
