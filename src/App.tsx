@@ -25,7 +25,7 @@ import { FeedbackForm } from "./components/FeedbackForm";
 import { trackEvent } from "./services/analytics";
 
 export default function App() {
-  // Wallet state
+  // Global state configuration for Freighter wallet integration
   const [walletConnected, setWalletConnected] = useState(false);
   const [userAddress, setUserAddress] = useState("");
   const [userBalance, setUserBalance] = useState("0");
