@@ -78,8 +78,8 @@ export const OnboardingModal = () => {
               Click <strong>Connect Wallet</strong> at the top right, select a donation amount, and make your first contribution to receive a Soulbound Reward Badge!
               <br/><br/>
               <span className="text-xs text-slate-400">Escrow Contract:</span>
-              <button onClick={() => handleCopy('CAABH5ESG5RWD76ZBOS3O3YGCAXAXFHEDAC4YDQJCE34Y653ZW5KXTUG')} className="ml-2 font-mono text-[#37C6FF] hover:underline bg-[#12162B] px-2 py-1 rounded">
-                CAAB...TUG 📋
+              <button onClick={() => handleCopy('CC43AJ4EAYAG6GCST46WZEFCL4SJFQFCZBWQYI7R4SW2KD7VKTQ2GAOC')} className="ml-2 font-mono text-[#37C6FF] hover:underline bg-[#12162B] px-2 py-1 rounded">
+                CC43...GAOC 📋
               </button>
             </p>
           </div>
