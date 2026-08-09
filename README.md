@@ -15,7 +15,7 @@
 
 ---
 
-## 2. Overview
+## 2. Project Overview & Escrow Logic
 
 **Novascrow** evolves traditional crowdfunding into a fully decentralized, milestone-based Escrow system on the Stellar network using Soroban smart contracts. 
 
