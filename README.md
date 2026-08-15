@@ -198,13 +198,13 @@ Based on the feedback collected from our beta users, we identified key pain poin
 
 | Feedback Theme | Improvement Made | Commit |
 |---|---|---|
-| Onboarding Friction | Enhanced `OnboardingModal` with a step-by-step walkthrough, direct Freighter links, and an embedded Friendbot testnet XLM faucet. | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
-| Confusing Milestone UX | Added visual progress indicator bars and explanatory state tooltips to `MilestoneDashboard.tsx` so users understand locked/reached states. | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
-| Slow Perceived Performance | Refactored the core application to instantly render "Pending" UI states for donations and voting via Optimistic UI patterns. | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
-| Trust/Clarity Issues | Added a detailed "How does voting work?" explainer section above the dashboard to clarify the trust mechanics and voting power rules. | [e71d3f2](https://github.com/abhishek86038/Novascrow-level-4/commit/e71d3f2) |
-| Clipboard Accessibility | Added a copy to clipboard helper button in OnboardingModal for contracts. | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
-| Visual Polish & Toast Styling | Improved optimistic UI and added inline transaction status logs. | [041ac17](https://github.com/abhishek86038/Novascrow-level-4/commit/041ac17) |
-| empty state visual | Created an empty state fallback widget for the campaign contributions and milestones. | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
+| Onboarding Friction | Enhanced `OnboardingModal` with a step-by-step walkthrough, direct Freighter links, and an embedded Friendbot testnet XLM faucet. | [233b79d](https://github.com/abhishek86038/Novascrow-level-4/commit/233b79d) |
+| Confusing Milestone UX | Added visual progress indicator bars and explanatory state tooltips to `MilestoneDashboard.tsx` so users understand locked/reached states. | [0cc6567](https://github.com/abhishek86038/Novascrow-level-4/commit/0cc6567) |
+| Slow Perceived Performance | Refactored the core application to instantly render "Pending" UI states for donations and voting via Optimistic UI patterns. | [de3be55](https://github.com/abhishek86038/Novascrow-level-4/commit/de3be55) |
+| Trust/Clarity Issues | Added a detailed "How does voting work?" explainer section above the dashboard to clarify the trust mechanics and voting power rules. | [9684b6d](https://github.com/abhishek86038/Novascrow-level-4/commit/9684b6d) |
+| Clipboard Accessibility | Added a copy to clipboard helper button in OnboardingModal for contracts. | [143798a](https://github.com/abhishek86038/Novascrow-level-4/commit/143798a) |
+| Visual Polish & Toast Styling | Improved optimistic UI and added inline transaction status logs. | [c78fafb](https://github.com/abhishek86038/Novascrow-level-4/commit/c78fafb) |
+| empty state visual | Created an empty state fallback widget for the campaign contributions and milestones. | [0b1594f](https://github.com/abhishek86038/Novascrow-level-4/commit/0b1594f) |
 
 ### Users Onboarded Table
 Below is the summary of the onboarded users who will interact with the platform and submit their feedback:
