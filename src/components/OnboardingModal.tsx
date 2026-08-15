@@ -95,3 +95,4 @@ export const OnboardingModal = () => {
     </div>
   );
 }; // Walkthrough and faucet instructions enhanced
+// Clipboard helper utility added to modal
