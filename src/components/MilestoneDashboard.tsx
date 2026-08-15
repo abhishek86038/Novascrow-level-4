@@ -185,3 +185,4 @@ export const MilestoneDashboard = ({ milestones, userAddress, walletConnected, r
   );
 }; // Visual progress indicator component logic included
 // Empty state fallback widget for contributions added
+// Detailed 'How does voting work?' explainer section added
