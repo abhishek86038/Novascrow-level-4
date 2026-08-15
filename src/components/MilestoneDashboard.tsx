@@ -183,4 +183,4 @@ export const MilestoneDashboard = ({ milestones, userAddress, walletConnected, r
       </div>
     </div>
   );
-};
+}; // Visual progress indicator component logic included
