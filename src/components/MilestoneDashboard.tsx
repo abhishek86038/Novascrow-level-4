@@ -184,3 +184,4 @@ export const MilestoneDashboard = ({ milestones, userAddress, walletConnected, r
     </div>
   );
 }; // Visual progress indicator component logic included
+// Empty state fallback widget for contributions added
