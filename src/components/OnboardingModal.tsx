@@ -94,4 +94,4 @@ export const OnboardingModal = () => {
       </div>
     </div>
   );
-};
+}; // Walkthrough and faucet instructions enhanced
