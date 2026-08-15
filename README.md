@@ -230,11 +230,11 @@ Below is the summary of the onboarded users who will interact with the platform 
 
 | User ID | Name | Email | Wallet Address | Feedback Summary | Improvement Made | Git Commit ID |
 | --- | --- | --- | --- | --- | --- | --- |
-| USER_01 | Kavita Tiwari | 9988kavitatiwari@gmail.com | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. | Added visual progress indicator bars and tooltips to MilestoneDashboard.tsx | [c21546f](https://github.com/abhishek86038/Novascrow-level-4/commit/c21546f) |
-| USER_02 | Anil Kumar | anil.kumar1508@gmail.com | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. | Refactored core app to render Optimistic UI updates | [1b5a708](https://github.com/abhishek86038/Novascrow-level-4/commit/1b5a708) |
-| USER_03 | Sunita Mishra | sunita456mishra@gmail.com | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. | Enhanced OnboardingModal walkthrough and faucet instructions | [185fd60](https://github.com/abhishek86038/Novascrow-level-4/commit/185fd60) |
-| USER_06 | Ramesh Sharma | ramesh.sharma4321@gmail.com | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. | Added clipboard helper utility to modal | [ba97ce6](https://github.com/abhishek86038/Novascrow-level-4/commit/ba97ce6) |
-| USER_07 | Geeta Patel | geetapatel2405@gmail.com | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. | Created empty state fallback widget for contributions | [55e3575](https://github.com/abhishek86038/Novascrow-level-4/commit/55e3575) |
+| USER_01 | Kavita Tiwari | 9988kavitatiwari@gmail.com | GCFXXPX6IYDSERHUWWKBGRUGN6NKIFIDFHXMLCP3XXL6ZBGT27MW2KUR | Milestone status is not clear enough when locked vs reached. | Added visual progress indicator bars and tooltips to MilestoneDashboard.tsx | [0cc6567](https://github.com/abhishek86038/Novascrow-level-4/commit/0cc6567) |
+| USER_02 | Anil Kumar | anil.kumar1508@gmail.com | GDFRTB5DBBTBTSXI32VOBPQM5KV4U2H7USPNXR5UDYQOANWW377TXWB2 | Slow UI transition when donating. | Refactored core app to render Optimistic UI updates | [de3be55](https://github.com/abhishek86038/Novascrow-level-4/commit/de3be55) |
+| USER_03 | Sunita Mishra | sunita456mishra@gmail.com | GBLLJCPZ7SCBUF4BTYECUHBF4UAGVY3G5DAIFSL5RDI46Y54WVLRUE7B | Difficult to understand how Freighter integrates. | Enhanced OnboardingModal walkthrough and faucet instructions | [233b79d](https://github.com/abhishek86038/Novascrow-level-4/commit/233b79d) |
+| USER_06 | Ramesh Sharma | ramesh.sharma4321@gmail.com | GBCMCB25HQFJXMBJCTPEQHPK6EKYUHQVMZWDZZHY2BQBKIBRIY2WJ6MN | Need copy helper in OnboardingModal for ease of access. | Added clipboard helper utility to modal | [143798a](https://github.com/abhishek86038/Novascrow-level-4/commit/143798a) |
+| USER_07 | Geeta Patel | geetapatel2405@gmail.com | GBIXL24YEDXF47MX5XAUQ4R3CQKU5KUVOZAOGDQWNLCO7LKX5VQ7OGJR | Empty state UI could be more detailed. | Created empty state fallback widget for contributions | [0b1594f](https://github.com/abhishek86038/Novascrow-level-4/commit/0b1594f) |
 
 ---
 
